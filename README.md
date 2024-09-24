@@ -30,9 +30,26 @@ your answer to this markdown file.
 
 ## Answer
 
-
+Something that is always true at the start of each recursive call is the the Fibonacci numbers for n = 0 and n = 1 are correct. Since we know that this is true. We can see that at the start of the recursive call fib(n - 1). The array already 
+contains the Fibbonacci numbers of n = 0 and n = 1. This ensures that we can compute the next Fibbonacci number by using the the values for arr[n - 1] and arr[n - 2]. We can now add them to get fib(n). 
 
 ## Plagiarism Acknowledgement 
+I started by trying to create the function from scratch since I have worked on this problem before.
+Then took a look at my previous repository https://github.com/COSC3020/fibonacci-invariants-swilso59-1
+
+I wanted to review differnt ways of implementing this function so I did a little bit or online research.
+I found this video which had a nice example and explanation of the function as well as the time complexity.
+https://www.youtube.com/watch?v=tQjd29Rmo_A&ab_channel=Codevolution
+although implemented using an iterative approach instead of recursion.
+While doing some extra investigation I decided to look at some other students repositories.
+https://github.com/COSC3020/fibonacci-invariants-SamuelGlz-1
+Zach's repository was very helpful.
+https://github.com/COSC3020/fibonacci-invariants-ZachRenz
+
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
 
 
 
