@@ -3,7 +3,7 @@ function fib(n) {
         return [0];
     } 
     else if (n === 1) {
-        retirn [0,1];
+        return [0,1];
     } 
     else if (n === 2) {
         return [0,1,1];
