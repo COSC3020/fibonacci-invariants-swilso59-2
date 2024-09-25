@@ -30,8 +30,7 @@ your answer to this markdown file.
 
 ## Answer
 
-Something that is always true at the start of each recursive call is the the Fibonacci numbers for n = 0 and n = 1 are correct. Since we know that this is true. We can see that at the start of the recursive call fib(n - 1). The array already 
-contains the Fibbonacci numbers of n = 0 and n = 1. This ensures that we can compute the next Fibbonacci number by using the the values for arr[n - 1] and arr[n - 2]. We can now add them to get fib(n). 
+Something that is always true at the start of each recursive call is the the Fibonacci numbers for $n = 0$ and $n = 1$ are correct. When we make recursive calls to fib(n - 1). The calls are made till we reach our base case. Then the array is progressively built up to $n - 1$. This ensures that we can compute the next Fibbonacci number $fib(n)$, by using the the values for $arr[n - 1]$ and $arr[n - 2]$, Which are the values of $fib(n - 1)$ and $fib(n - 2)$. We can now add them to get $fib(n)$. 
 
 ## Plagiarism Acknowledgement 
 I started by trying to create the function from scratch since I have worked on this problem before.
